@@ -1,0 +1,10 @@
+/* Add this CSS to position .media at the top-left corner */
+.media {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 20px; /* Adjust the padding as needed */
+    z-index: 100; /* Ensure it is on top */
+    color: blueviolet;
+  }
+  
