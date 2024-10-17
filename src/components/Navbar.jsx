@@ -163,9 +163,6 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
               Projects
             </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-              Education
-            </NavLink>
             <GithubButton
               href="https://instagram.com/kunaaal_.8401"
               style={{
