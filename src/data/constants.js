@@ -15,83 +15,121 @@ import Ai from '../images/Ai.png';
 import Figma from '../images/Figma.png';
 import CC from '../images/CapCut.png';
 import Pi from '../images/Pixelab.png';
-import Collage from '../images/collage.png';
-import Shool from '../images/Shool.png';
 import Am from '../images/Am.png';
+
+
+
+
 
 export const Bio = {
   name: "Kunal Bhoi",
   roles: [
     "video editor",
     "photographer",
-    "videographer",
+    "Videographer", 
   ],
   description: 
-    "I’m Kunal. With my varied experience in content creation, I bring a unique blend of skills to the table in Video Editing, leading media teams, and innovating in Web3 technology. Notably, I've grown an Instagram page to 150k followers and managed a popular YouTube channel with 30 million views. With my mix of creativity, strategy, and hands-on experience, I'm ready to make a big impact.",
-  socialLinks: {
-    instagram: "https://instagram.com/kunaaal_.8401",
-    resume: "https://drive.google.com/file/d/1cK5wK0WPihE17kty2vtjuGr4UlQ6vqQy/view?usp=sharing",
-    linkedin: "https://www.linkedin.com/in/kunal-bhoi-b961a3232/",
-    twitter: "https://x.com/kunalbhoi_/",
-    facebook: "https://www.facebook.com/profile.php?id=100009185008934",
-    telegram: "https://t.me/Kunaaal_8401",
-  }
+  " I’m Kunal, My varied experience in content creation, I bring a uniqueblend of skills to the table in Video Editing. Leading media teams, and innovating in Web3 technology. Notably, I've grown an Instagram page to 150k followers and managed a popular YouTube channel with 30 million views. With my mix of creativity, strategy, and hands-on experience, I'm ready to make a big impact. Looking forward.",
+  Insta: "https://instagram.com/kunaaal_.8401",
+  resume: "https://drive.google.com/file/d/1cK5wK0WPihE17kty2vtjuGr4UlQ6vqQy/view?usp=drive_link",
+  linkedin: "https://www.linkedin.com/in/kunal-bhoi-b961a3232/",
+  twitter: "https://x.com/kunalbhoi_/",
+  insta: " https://instagram.com/kunaaal_.8401 ",
+  facebook: " https://www.facebook.com/profile.php?id=100009185008934 ",
+  Telegram : "https://t.me/Kunaaal_8401",
 };
 
 export const skills = [
   {
     title: "Computer",
     skills: [
-      { name: "After Effect", image: Ae },
-      { name: "Premiere Pro", image: pr },
-      { name: "Davinci Resolve", image: Dr },
-      { name: "Canva", image: canva },
-      { name: "Lightroom", image: Lr },
-      { name: "Adobe Illustrator", image: Ai },
-      { name: "Figma", image: Figma },
+      {
+        name: "After Effect",
+        image: Ae
+      },
+      {
+        name: "premiere pro",
+        image: pr
+      },
+      {
+        name: "Davinci Resolve",
+        image: Dr
+      },
+      {
+        name: "Canva",
+        image: canva
+      },
+      {
+        name: "Lightroom",
+        image: Lr
+      },
+      {
+        name: "Adobe Illustrator",
+        image: Ai
+      },
+      {
+        name: "Figma",
+        image: Figma
+      },
     ],
   },
   {
     title: "Mobile",
     skills: [
-      { name: "CapCut", image: CC },
-      { name: "Pixellab", image: Pi },
-      { name: "Alight Motion", image: Am },
-      { name: "Canva", image: canva },
-      { name: "Lightroom", image: Lr },
+      {
+        name: "CapCut",
+        image: CC
+      },
+      {
+        name: "Pixellab",
+        image: Pi
+      },
+      {
+        name: "Alight Motion",
+        image: Am
+      },
+      {
+        name: "Canva",
+        image: canva
+      },
+      {
+        name: "Lightroom",
+        image: Lr
+      },
     ],
   },
-];
+]
+ 
 
 export const experiences = [
   {
     id: 0,
     img: Instagram,
-    role: "Influencer",
-    company: "Instagram",
+    role:  "Influencer",
+    company: " Instagram ",
     date: "May 2018 - Present",
-    desc: "I've created a page on Instagram (High Clicks Status) with 160k+ followers. Grew this page from 0 to 160k+ in the last 3 years. I do promotions and collaborations on that channel and have managed profiles of many users.",
-    skills: [
+    desc: " I've created a page on Instagram {[High Clicks Status] [160k+ followers]}. Grew this page from 0 to 160k+ in last 3 years. And also I do promotions and collaborations on that channel. And I have Managed profile's of many users ",
+    skills :[
       "Video Editing",
-      "Social Media Marketing",
-      "Social Media Managing",
-    ],
+      "Social Media Marketing ",
+      "Social Media Managing ",
+    ]
   },
   {
     id: 1,
-    img: YouTube,
-    role: "Video Editor",
-    company: "YouTube",
-    date: "Sep 2022 - Present",
-    desc: "I'm currently running a YouTube channel that has 5.5K+ subscribers and has reached up to 30M views.",
+    img : YouTube,
+    role: " Video Editor ",
+    company: " YouTube ",
+    date: "sep 2022 - Present",
+    desc: " I'm currently running a youtube channel that has (5.5K+ subscribers). And reached upto 30M views. ",
   },
   {
     id: 2,
     img: Tedx,
-    role: "Production Lead",
+    role: " Production Lead ",
     company: "TEDxDYPIT",
     date: "Sep 2022 - Sep 2023",
-    desc: "As a production lead at TEDx, I managed a team and coordinated effectively. Together, we successfully handled campaigning and marketing. I ensure that every piece of content not only aligns with our strategic goals but also resonates deeply with our audience.",
+    desc: " As a production lead at TEDx, I managed a team of  people and coordinated it effectively. Together, we successfully handled campaigning and marketing.I ensure that every piece of content not only aligns with our strategic goals but also resonates deeply with our audience. ",
     skills: [
       "Video Editing",
       "Campaigning",
@@ -100,12 +138,12 @@ export const experiences = [
   },
   {
     id: 3,
-    img: actualone,
-    role: "Video Editor",
-    company: "Actualone",
+    img : actualone,
+    role: " Video Editor ",
+    company: " Actualone ",
     date: "Jun 2022 - Present",
-    desc: "I began working at Actualone in my first year, where I played a key role in expanding the company by meeting market demand. My responsibilities included capturing and editing content to produce the final output. Additionally, we organized events in colleges to shoot videos on a range of topics, enhancing our content offerings and engagement.",
-    skills: [
+    desc: "I began working at Actualone in my first year, where I played a key role in expanding the company by meeting market demand. My responsibilities included capturing and editing content to produce the final output. Additionally, we organized events in colleges to shoot videos on a range of topics, enhancing our content offerings and engagement",
+    skills :[
       "Creative Storytelling",
       "Time Efficiency",
       "Effective Communication",
@@ -114,10 +152,10 @@ export const experiences = [
   {
     id: 4,
     img: Devkraft,
-    role: "Head of Production",
-    company: "DevKraft",
+    role: " Head of Production ",
+    company:  " DevKraft ",
     date: "Feb 2022 - Present",
-    desc: "In my first year, I co-founded a club called Devkraft with a few others, where I served as the social media manager. I managed the club’s online profile, which helped me develop my leadership skills. My experience there led to my promotion to production management lead. We collaborated with other clubs to shoot their events, and my primary role was to shoot and edit these events for social media. I also managed an official team of 8 to 10 members responsible for photography and editing.",
+    desc: "In my first year, I co-founded a club called Devkraft with a few others, where I served as the social media manager. I managed the club’s online profile, which helped me develop my leadership skills. My experience there led to my promotion to production management lead. We collaborated with other clubs to shoot there events, and my primary role was to shoot and edit these events for social media. I also managed an official team of 8 to 10 members responsible for photography and editing.",
     skills: [
       "Leadership Excellence",
       "Strategic Planning",
@@ -128,16 +166,16 @@ export const experiences = [
   {
     id: 5,
     img: Devkraft,
-    role: "Social Media Manager",
+    role: " Socil Media Manager ",
     company: "DevKraft",
     date: "Mar 2022 - Dec 2022",
-    desc: "At DevKraft, I infuse creativity and strategy into our social media presence, crafting a vibrant digital persona that resonates with our audience. As the Social Media Manager, I orchestrate innovative campaigns that tell compelling stories and drive meaningful engagement, ensuring our brand stands out in the crowded digital landscape.",
+    desc: " At DevKraft, I infuse creativity and strategy into our social media presence, crafting a vibrant digital persona that resonates with our audience. As the Social Media Manager, I orchestrate innovative campaigns that tell compelling stories and drive meaningful engagement, ensuring our brand stands out in the crowded digital landscape ",
     skills: [
       "Creative Vision",
       "Analytical Acumen",
       "Communication",
       "Project Management",
-      "Online Campaigning",
+      "Online Campaigning ",
     ],
   },
   {
@@ -146,17 +184,18 @@ export const experiences = [
     role: "Production Lead",
     company: "Zion",
     date: "Feb 2023 - Present",
-    desc: "Zion is a club where all the clubs from the college collaborate to conduct one big event. Through my work status and overall experience, I successfully attained the position of production head in my second year. My responsibilities included shooting reels for campaigning, marketing, and promotions, and editing these reels for social media platforms. Here, I learned valuable skills in time management and leadership.",
+    desc: "Zion is a club where all the clubs from the college collaborate to conduct one big event. Through my work status and overall experience, I successfully attained the position of production head in my second year. My responsibilities included shooting reels for campaigning, marketing, and promotions, and editing these reels for social media platforms. Here, I learned valuable skills in time management and leadership. ",
     skills: [
       "Leadership",
-      "Time Management",
-      "Videography",
+      "Time Management ",
+      "Videogrphy",
+      
     ],
   },
   {
     id: 7,
     img: DPU,
-    role: "Official Photographer",
+    role: " Official Photographer ",
     company: "DYPIT",
     date: "Feb 2022 - Present",
   },
@@ -167,54 +206,26 @@ export const experiences = [
     company: "Zo Lab",
     date: "Mar 2024 - Aug 2024",
   },
+
+  
+  
 ];
 
-export const education = [
-  {
-    id: 0,
-    img: DPU,
-    school: "Dr. D. Y. Patil Institute of Technology Pimpri-Chinchwad, Maharashtra",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in ENTC and Engineering at Dr.D.Y.Patil Institute of Technology Pimpri-Chinchwad, Maharashtra.",
-    degree: "Bachelor of Technology - BTech, ENTC and Engineering",
-  },
-  {
-    id: 1,
-    img: Collage,
-    school: "Shri Palasnath Vidyalay Indapur, Maharashtra",
-    date: "Apr 2019 - Apr 2021",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Shri Palasnath Vidyalay Indapur, Maharashtra, where I studied Science.",
-    degree: "HSC(XII), Science",
-  },
-  {
-    id: 2,
-    img: Shool,
-    school: "Shri Narayandas Ramdas HighSchool Indapur, Maharashtra",
-    date: "Apr 2007 - Apr 2019",
-    grade: "82.82%",
-    desc: "I completed my class 10 education at Narayandas Ramdas HighSchool Indapur, Maharashtra, where I studied Science.",
-    degree: "SSC(X), Science",
-  },
-];
 
 export const projects = [
   {
     id: 1,
-    videourl: "https://drive.google.com/file/d/1lALKwq5uoh14cijNl3gJ5y5LrxVGhLQI/view?usp=drive_link",
-    img: Instagram,
-    title: "Influencer",
-    description: 
-      "On Instagram, I have created a page (High Clicks Status) with 160k+ followers, growing it from 0 to 160k+ in the last 3 years. I do promotions and collaborations on that channel and have managed profiles of many users.",
+  videourl:
+  "https://drive.google.com/file/d/1lALKwq5uoh14cijNl3Eq3WVKlGLn1mFX/view?usp=drivesdk",
+    Fullvideolink: "https://drive.google.com/file/d/1lALKwq5uoh14cijNl3Eq3WVKlGLn1mFX/view?usp=drivesdk",
+    category: "Video Editing",
+
   },
   {
     id: 2,
-    videourl: "https://drive.google.com/file/d/1jlk7GFErqT5vPl81wVbFrX4Jd1PqGOXe/view?usp=drive_link",
-    img: YouTube,
-    title: "YouTube",
-    description: 
-      "I currently run a YouTube channel with 5.5K+ subscribers that has reached up to 30M views.",
+    videourl: "https://drive.google.com/file/d/1ohnRucYghjlTfEbctWqofNeuOYbbjIpk/view?usp=drivesdk",
+    category: "Video Editing",
+    Fullvideolink: "https://drive.google.com/file/d/1ohnRucYghjlTfEbctWqofNeuOYbbjIpk/view?usp=drivesdk",
   },
   {
     id: 3,
@@ -409,4 +420,3 @@ export const projects = [
     Fullvideolink: "https://drive.google.com/file/d/1GueEMSQZ3isrXoMqSVTQYb3LfZXOdZdn/view?usp=drive_link",
   },
 ];
-
