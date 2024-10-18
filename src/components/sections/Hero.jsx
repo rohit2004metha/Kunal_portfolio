@@ -249,7 +249,7 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton href= "https://drive.google.com/file/d/12dNFatvKBXLTXiH6VV4YLUZGN2LWn41m" target="_blank">
+              <ResumeButton href="https://drive.google.com/file/d/12dNFatvKBXLTXiH6VV4YLUZGN2LWn41m" target="_blank">
                 Check Resume
               </ResumeButton>
             </HeroLeftContainer>
