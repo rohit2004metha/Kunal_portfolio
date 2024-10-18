@@ -31,7 +31,7 @@ export const Bio = {
   description: 
   " I’m Kunal, My varied experience in content creation, I bring a uniqueblend of skills to the table in Video Editing. Leading media teams, and innovating in Web3 technology. Notably, I've grown an Instagram page to 150k followers and managed a popular YouTube channel with 30 million views. With my mix of creativity, strategy, and hands-on experience, I'm ready to make a big impact. Looking forward.",
   Insta: "https://instagram.com/kunaaal_.8401",
-  resume: "https://drive.google.com/file/d/1cK5wK0WPihE17kty2vtjuGr4UlQ6vqQy/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/12dNFatvKBXLTXiH6VV4YLUZGN2LWn41m/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kunal-bhoi-b961a3232/",
   twitter: "https://x.com/kunalbhoi_/",
   insta: " https://instagram.com/kunaaal_.8401 ",
