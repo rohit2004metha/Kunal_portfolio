@@ -212,6 +212,7 @@ export const experiences = [
 ];
 
 
+
 export const projects = [
   {
     id: 1,
@@ -419,4 +420,4 @@ export const projects = [
     category: "Videographer",
     Fullvideolink: "https://drive.google.com/file/d/1GueEMSQZ3isrXoMqSVTQYb3LfZXOdZdn/view?usp=drive_link",
   },
-];
+]
