@@ -146,7 +146,10 @@ const Navbar = () => {
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
+<<<<<<< HEAD
           <NavLink href="#Projects">Contact</NavLink>
+=======
+>>>>>>> 564b49f38885285f35ecebf666074fbe7da54fda
         </NavItems>
 
         {isOpen && (
