@@ -6,11 +6,10 @@
     "@emailjs/browser": "^4.1.0",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@mediapipe/tasks-vision": "^0.10.14",
     "@mui/icons-material": "^5.15.10",
     "@mui/lab": "^5.0.0-alpha.165",
     "@mui/material": "^5.15.10",
-    "@react-three/drei": "^9.114.5",
+    "@react-three/drei": "^9.99.0",
     "@react-three/fiber": "^8.15.16",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -22,13 +21,12 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "styled-components": "^6.1.8",
     "three": "^0.161.0",
-    "typescript": "^3.9.10",
     "typewriter-effect": "^2.21.0",
     "web-vitals": "^2.1.4"
   },
@@ -55,9 +53,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "webpack": "^5.93.0",
-    "webpack-cli": "^5.1.4"
   }
 }
