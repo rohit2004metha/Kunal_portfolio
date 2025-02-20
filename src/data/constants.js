@@ -211,3 +211,9 @@ export const experiences = [
   
 ];
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 7f1cc2679d61ee0bb9f773c69f70173583d598aa
