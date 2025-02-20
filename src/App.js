@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+import { VisionTask } from '@mediapipe/tasks-vision';
 import React, { Suspense, lazy } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/Themes";
