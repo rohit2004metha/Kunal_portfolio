@@ -9,7 +9,6 @@ import StartCanvas from "./components/canvas/Stars";
 const Hero = lazy(() => import("./components/sections/Hero"));
 const Skills = lazy(() => import("./components/sections/Skills"));
 const Experience = lazy(() => import("./components/sections/Experience"));
-const Projects = lazy(() => import("./components/sections/Projects"));
 const Contact = lazy(() => import("./components/sections/Contact"));
 const Footer = lazy(() => import("./components/sections/Footer"));
 
@@ -50,7 +49,6 @@ function App() {
               <Skills />
               <Experience />
             </Wrapper>
-            <Projects />
             <Wrapper>
               <Contact />
             </Wrapper>
