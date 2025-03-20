@@ -23,7 +23,7 @@ const Body = styled.div`
 `;
 const Role = styled.div`
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 600;
   color: ${({ theme }) => theme.text_primary + 99};
   @media only screen and (max-width: 768px) {
     font-size: 14px;
@@ -31,7 +31,7 @@ const Role = styled.div`
 `;
 const Company = styled.div`
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: 500;
   color: ${({ theme }) => theme.text_secondary + 99};
   @media only screen and (max-width: 768px) {
     font-size: 12px;
@@ -39,9 +39,8 @@ const Company = styled.div`
 `;
 const Date = styled.div`
   font-size: 12px;
-  font-weight: 400px;
+  font-weight: 400;
   color: ${({ theme }) => theme.text_secondary + 80};
-
   @media only screen and (max-width: 768px) {
     font-size: 10px;
   }
@@ -60,14 +59,10 @@ const Description = styled.div`
 const Skills = styled.div`
   width: 100%;
   display: flex;
-  gap: 12px;
-  margin-top: -10px;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
 `;
-const Span = styled.div`
-  display: -webkit-box;
-  max-width: 100%;
-`;
-
 const Skill = styled.div`
   font-size: 15px;
   font-weight: 400;
@@ -75,12 +70,6 @@ const Skill = styled.div`
   @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
-`;
-
-const ItemWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
 `;
 
 const ExperienceCard = ({ experience }) => {
@@ -107,7 +96,7 @@ const ExperienceCard = ({ experience }) => {
         borderRadius: "6px",
       }}
       contentArrowStyle={{
-        borderRight: "7px solid  rgba(255, 255, 255, 0.3)",
+        borderRight: "7px solid rgba(255, 255, 255, 0.3)",
       }}
       date={experience?.date}
     >
@@ -119,20 +108,21 @@ const ExperienceCard = ({ experience }) => {
           <Date>{experience?.date}</Date>
         </Body>
       </Top>
+      
       <Description>
-        {experience?.desc && <Span>{experience.desc}</Span>}
+        {/* Ensure each description point appears on a new line */}
+        {experience?.desc && experience.desc.map((point, index) => (
+          <p key={index} style={{ margin: "5px 0" }}>{point}</p>
+        ))}
+
+        {/* Skills Section */}
         {experience?.skills && (
-          <>
-            <br />
-            <Skills>
-              <b>Skills</b>
-              <ItemWrapper>
-                {experience?.skills?.map((skill, index) => (
-                  <Skill>• {skill}</Skill>
-                ))}
-              </ItemWrapper>
-            </Skills>
-          </>
+          <Skills>
+            <b>Skills:</b>
+            {experience?.skills?.map((skill, index) => (
+              <Skill key={index}>• {skill}</Skill>
+            ))}
+          </Skills>
         )}
       </Description>
     </VerticalTimelineElement>
