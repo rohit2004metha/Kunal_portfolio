@@ -1,4 +1,4 @@
-import actualone from '../images/Actualone.png';
+import actualone from '../images/Actualone.png'; 
 import Zion from '../images/Zion.png';
 import Tedx from '../images/tedx.png';
 import Zo from '../images/Zo.png';
@@ -79,8 +79,8 @@ export const experiences = [
     company: "Instagram",
     date: "May 2018 - Present",
     desc: [
-        "Grew my page from 0 to 160k Followers",
-        "30M+ Weekly Impressions"
+        "\u2022 Grew my page from 0 to 160k Followers",
+        "\u2022 30M+ Weekly Impressions"
     ],
     skills: [
         "Content Strategy",
@@ -96,9 +96,9 @@ export const experiences = [
     company: "YouTube",
     date: "Sep 2022 - Present",
     desc: [
-      "Built my channel from 0 to 5.5K followers.",
-      "Over 35M+ Views.",
-      "400M+ Impressions."
+      "\u2022 Built my channel from 0 to 5.5K followers.",
+      "\u2022 Over 35M+ Views.",
+      "\u2022 400M+ Impressions."
     ],
     skills: [
       "Video Editing",
@@ -112,9 +112,9 @@ export const experiences = [
     company: "Actualone",
     date: "Jun 2022 - Present",
     desc: [
-      "Grew Actualone's reach based on content by 250%.",
-      "Reached 1M+ audience.",
-      "Expanded company network in Goa and Bangalore WEB 3."
+      "\u2022 Grew Actualone's reach based on content by 250%.",
+      "\u2022 Reached 1M+ audience.",
+      "\u2022 Expanded company network in Goa and Bangalore WEB 3."
     ],
     skills: [
       "Communication",
@@ -129,8 +129,8 @@ export const experiences = [
     company: "DevKraft",
     date: "Feb 2022 - Present",
     desc: [
-      "Led a team of 100+ individuals in various departments.",
-      "Organized production highlights that reached 1M+."
+      "\u2022 Led a team of 100+ individuals in various departments.",
+      "\u2022 Organized production highlights that reached 1M+."
     ],
     skills: [
       "Leadership",
@@ -145,8 +145,8 @@ export const experiences = [
     company: "TEDxDYPIT",
     date: "Sep 2022 - Sep 2023",
     desc: [
-      "Managed a team of 12+ content creators and crew.",
-      "Created and shot a marketing campaign in 10+ colleges."
+      "\u2022 Managed a team of 12+ content creators and crew.",
+      "\u2022 Created and shot a marketing campaign in 10+ colleges."
     ],
     skills: [
       "Leadership",
