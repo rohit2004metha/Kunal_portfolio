@@ -94,14 +94,14 @@ export const experiences = [
         "SMM"
     ]
 },
-{
+ {
     id: 1,
     img: YouTube,
     role: "Video Editor",
     company: "YouTube",
     date: "Sep 2022 - Present",
     desc: [
-      "Build my channel from 0 to 5.5K followers.",
+      "Built my channel from 0 to 5.5K followers.",
       "Over 35M+ Views.",
       "400M+ Impressions."
     ],
@@ -117,9 +117,9 @@ export const experiences = [
     company: "Actualone",
     date: "Jun 2022 - Present",
     desc: [
-      "Grew Actualone's Reach on basis of content by 250%",
-      "Reaching 1M+ audience.",
-      "Grew company network in Goa and Bangalore WEB 3."
+      "Grew Actualone's reach based on content by 250%.",
+      "Reached 1M+ audience.",
+      "Expanded company network in Goa and Bangalore WEB 3."
     ],
     skills: [
       "Communication",
@@ -134,8 +134,8 @@ export const experiences = [
     company: "DevKraft",
     date: "Feb 2022 - Present",
     desc: [
-      "Handled team of 100+ individuals in various teams.",
-      "Organisation production highlights reach 1M+."
+      "Led a team of 100+ individuals in various departments.",
+      "Organized production highlights that reached 1M+."
     ],
     skills: [
       "Leadership",
@@ -151,7 +151,7 @@ export const experiences = [
     date: "Sep 2022 - Sep 2023",
     desc: [
       "Managed a team of 12+ content creators and crew.",
-      "Created and shot marketing campaign in 10+ colleges."
+      "Created and shot a marketing campaign in 10+ colleges."
     ],
     skills: [
       "Leadership",
@@ -159,5 +159,4 @@ export const experiences = [
       "Content Strategy"
     ]
   }
-
 ];
