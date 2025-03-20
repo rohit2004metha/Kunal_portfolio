@@ -17,10 +17,6 @@ import CC from '../images/CapCut.png';
 import Pi from '../images/Pixelab.png';
 import Am from '../images/Am.png';
 
-
-
-
-
 export const Bio = {
   name: "Kunal Bhoi",
   roles: [
@@ -29,13 +25,13 @@ export const Bio = {
     "Videographer", 
   ],
   description: 
-  " I’m Kunal, My varied experience in content creation, I bring a uniqueblend of skills to the table in Video Editing. Leading media teams, and innovating in Web3 technology. Notably, I've grown an Instagram page to 150k followers and managed a popular YouTube channel with 30 million views. With my mix of creativity, strategy, and hands-on experience, I'm ready to make a big impact. Looking forward.",
+  "I’m Kunal, My varied experience in content creation, I bring a unique blend of skills to the table in Video Editing. Leading media teams, and innovating in Web3 technology. Notably, I've grown an Instagram page to 150k followers and managed a popular YouTube channel with 30 million views. With my mix of creativity, strategy, and hands-on experience, I'm ready to make a big impact. Looking forward.",
   Insta: "https://instagram.com/kunaaal_.8401",
   resume: "https://drive.google.com/file/d/12dNFatvKBXLTXiH6VV4YLUZGN2LWn41m",
   linkedin: "https://www.linkedin.com/in/kunal-bhoi-b961a3232/",
   twitter: "https://x.com/kunalbhoi_/",
-  insta: " https://instagram.com/kunaaal_.8401 ",
-  facebook: " https://www.facebook.com/profile.php?id=100009185008934 ",
+  insta: "https://instagram.com/kunaaal_.8401",
+  facebook: "https://www.facebook.com/profile.php?id=100009185008934",
   Telegram : "https://t.me/Kunaaal_8401",
 };
 
@@ -48,7 +44,7 @@ export const skills = [
         image: Ae
       },
       {
-        name: "premiere pro",
+        name: "Premiere Pro",
         image: pr
       },
       {
@@ -75,7 +71,6 @@ export const skills = [
   },
 ]
  
-
 export const experiences = [
   {
     id: 0,
@@ -93,8 +88,8 @@ export const experiences = [
         "Video Editing",
         "SMM"
     ]
-},
- {
+  },
+  {
     id: 1,
     img: YouTube,
     role: "Video Editor",
