@@ -41,7 +41,7 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Computer",
+    title: "",
     skills: [
       {
         name: "After Effect",
@@ -80,74 +80,84 @@ export const experiences = [
   {
     id: 0,
     img: Instagram,
-    role:  "Instagram Influencing",
-    company: " Instagram ",
+    role: "Instagram Influencing",
+    company: "Instagram",
     date: "May 2018 - Present",
-    desc: "Grew my page from 0 to 160k Followers",
-    desc: "30M+ Weekly Impressions",
-    skills :[
-      "Content Strategy",
-      "Trend Identification",
-      "Video Editing",
-      "SMM",
+    desc: [
+        "Grew my page from 0 to 160k Followers",
+        "30M+ Weekly Impressions"
+    ],
+    skills: [
+        "Content Strategy",
+        "Trend Identification",
+        "Video Editing",
+        "SMM"
     ]
-  },
-  {
+},
+{
     id: 1,
-    img : YouTube,
-    role: " Video Editor ",
-    company: " YouTube ",
-    date: "sep 2022 - Present",
-    desc: " Build my channel from 0 to 5.5K followers. ",
-    desc: " Over 35M+ Views. ",
-    desc: " 400M+ Impressions. ",
-    skills :[
+    img: YouTube,
+    role: "Video Editor",
+    company: "YouTube",
+    date: "Sep 2022 - Present",
+    desc: [
+      "Build my channel from 0 to 5.5K followers.",
+      "Over 35M+ Views.",
+      "400M+ Impressions."
+    ],
+    skills: [
       "Video Editing",
-      "Content Calendar Management",
+      "Content Calendar Management"
     ]
   },
   {
     id: 2,
-    img : actualone,
-    role: " Production Head ",
-    company: " Actualone ",
+    img: actualone,
+    role: "Production Head",
+    company: "Actualone",
     date: "Jun 2022 - Present",
-    desc: "Grew Actualone's Reach on basis of content by 250%",
-      desc: "Reaching 1M+ audience.",
-      desc: "Grew company network in Goa and Bangalore WEB 3.",
-    skills :[
+    desc: [
+      "Grew Actualone's Reach on basis of content by 250%",
+      "Reaching 1M+ audience.",
+      "Grew company network in Goa and Bangalore WEB 3."
+    ],
+    skills: [
       "Communication",
       "Relation Building",
-      "Production",
-    ],
+      "Production"
+    ]
   },
   {
     id: 3,
     img: Devkraft,
-    role: " Co-founder and Production head ",
-    company:  " DevKraft ",
+    role: "Co-founder and Production Head",
+    company: "DevKraft",
     date: "Feb 2022 - Present",
-    desc: "Handled team of 100+ individuals in various teams.",
-    desc: "- Organisation production highlights reach 1M+.",
+    desc: [
+      "Handled team of 100+ individuals in various teams.",
+      "Organisation production highlights reach 1M+."
+    ],
     skills: [
       "Leadership",
       "Marketing",
-      "Production",
-    ],
+      "Production"
+    ]
   },
- {
+  {
     id: 4,
     img: Tedx,
-    role: " Production Lead ",
+    role: "Production Lead",
     company: "TEDxDYPIT",
     date: "Sep 2022 - Sep 2023",
-    desc: "Managed a team of 12+ content creators and crew.",
-   desc: "Created and shot marketing campaign in 10+ colleges.",
+    desc: [
+      "Managed a team of 12+ content creators and crew.",
+      "Created and shot marketing campaign in 10+ colleges."
+    ],
     skills: [
       "Leadership",
       "Content Calendar",
-      "Content Strategy",
-    ],
-  },
+      "Content Strategy"
+    ]
+  }
 
 ];
