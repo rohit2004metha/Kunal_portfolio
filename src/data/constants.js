@@ -25,7 +25,7 @@ export const Bio = {
     "Videographer", 
   ],
   description: 
-  "I’m Kunal, My varied experience in content creation, I bring a unique blend of skills to the table in Video Editing. Leading media teams, and innovating in Web3 technology. Notably, I've grown an Instagram page to 150k followers and managed a popular YouTube channel with 30 million views. With my mix of creativity, strategy, and hands-on experience, I'm ready to make a big impact. Looking forward.",
+  "I’m Kunal, My varied experience in content creation, I bring a unique blend of skills to the table in Video Editing.\n\n\u2022 Leading media teams, and innovating in Web3 technology.\n\n\u2022 Notably, I've grown an Instagram page to 150k followers and managed a popular YouTube channel with 30 million views.\n\n\u2022 With my mix of creativity, strategy, and hands-on experience, I'm ready to make a big impact.\n\n\u2022 Looking forward.",
   Insta: "https://instagram.com/kunaaal_.8401",
   resume: "https://drive.google.com/file/d/12dNFatvKBXLTXiH6VV4YLUZGN2LWn41m",
   linkedin: "https://www.linkedin.com/in/kunal-bhoi-b961a3232/",
@@ -79,8 +79,8 @@ export const experiences = [
     company: "Instagram",
     date: "May 2018 - Present",
     desc: [
-        "\u2022 Grew my page from 0 to 160k Followers",
-        "\u2022 30M+ Weekly Impressions"
+        "\u2022 Grew my page from 0 to 160k Followers.\n",
+        "\u2022 30M+ Weekly Impressions.\n"
     ],
     skills: [
         "Content Strategy",
@@ -96,9 +96,9 @@ export const experiences = [
     company: "YouTube",
     date: "Sep 2022 - Present",
     desc: [
-      "\u2022 Built my channel from 0 to 5.5K followers.",
-      "\u2022 Over 35M+ Views.",
-      "\u2022 400M+ Impressions."
+      "\u2022 Built my channel from 0 to 5.5K followers.\n",
+      "\u2022 Over 35M+ Views.\n",
+      "\u2022 400M+ Impressions.\n"
     ],
     skills: [
       "Video Editing",
@@ -112,9 +112,9 @@ export const experiences = [
     company: "Actualone",
     date: "Jun 2022 - Present",
     desc: [
-      "\u2022 Grew Actualone's reach based on content by 250%.",
-      "\u2022 Reached 1M+ audience.",
-      "\u2022 Expanded company network in Goa and Bangalore WEB 3."
+      "\u2022 Grew Actualone's reach based on content by 250%.\n",
+      "\u2022 Reached 1M+ audience.\n",
+      "\u2022 Expanded company network in Goa and Bangalore WEB 3.\n"
     ],
     skills: [
       "Communication",
@@ -129,8 +129,8 @@ export const experiences = [
     company: "DevKraft",
     date: "Feb 2022 - Present",
     desc: [
-      "\u2022 Led a team of 100+ individuals in various departments.",
-      "\u2022 Organized production highlights that reached 1M+."
+      "\u2022 Led a team of 100+ individuals in various departments.\n",
+      "\u2022 Organized production highlights that reached 1M+.\n"
     ],
     skills: [
       "Leadership",
@@ -145,8 +145,8 @@ export const experiences = [
     company: "TEDxDYPIT",
     date: "Sep 2022 - Sep 2023",
     desc: [
-      "\u2022 Managed a team of 12+ content creators and crew.",
-      "\u2022 Created and shot a marketing campaign in 10+ colleges."
+      "\u2022 Managed a team of 12+ content creators and crew.\n",
+      "\u2022 Created and shot a marketing campaign in 10+ colleges.\n"
     ],
     skills: [
       "Leadership",
